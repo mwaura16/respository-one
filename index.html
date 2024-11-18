@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to JavaScript</title>
+  <link rel="stylesheet" href="sttyle.css">
+</head>
+<body>
+  <div class="container background-animation greeting quote countdown">
+    <h1 id="welcome-text" class="fade-in">Welcome to JavaScript</h1>
+    <input type="text" id="nameInput" placeholder="Enter your name" />
+    <button id="greetButton">Greet Me!</button>
+    <p class="intro-text">Click the button below to explore the magic of JavaScript!</p>
+    <button id="change-text-btn" onclick="changeText()">Click Me</button>
+    <button id="getQuoteBtn">Get Quote</button>
+    <h2 id="event-title">Days Until Our Next Workshop!</h2>
+    <div id="timer">
+      <div id="days"></div>
+           <div id="hours"></div>
+           <div id="minutes"></div>
+           <div id="seconds"></div>
+    </div>
+    <div id="greeting"></div>
+    <div id="quote"></div>
+  </div>
+  
+  <script src="script.js" defer></script>
+</body>
+</html>
